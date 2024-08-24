@@ -1,0 +1,292 @@
+{
+  "policy": {
+    "DEFAULT": {
+      "capabilities": [
+        "frame",
+        "fetch",
+        "other",
+        "font"
+      ],
+      "temp": false
+    },
+    "TRUSTED": {
+      "capabilities": [
+        "script",
+        "object",
+        "media",
+        "frame",
+        "webgl",
+        "fetch",
+        "noscript",
+        "unchecked_css",
+        "lan",
+        "other",
+        "font"
+      ],
+      "temp": false
+    },
+    "UNTRUSTED": {
+      "capabilities": [],
+      "temp": false
+    },
+    "sites": {
+      "trusted": [
+        "§:afx.ms",
+        "§:ajax.aspnetcdn.com",
+        "§:firstdata.com",
+        "§:firstdata.lv",
+        "§:gfx.ms",
+        "§:hotmail.com",
+        "§:sfx.ms",
+        "§:tinymce.cachefly.net",
+        "§:wlxrs.com",
+        "§:startpage.com",
+        "§:tryhackme.com",
+        "§:docker.com",
+        "§:wazuh.com",
+        "192.168.1.1",
+        "§:grc.com",
+        "§:ibiblio.org",
+        "§:flathub.org",
+        "§:fontawesome.com",
+        "§:gitlab.com",
+        "127.0.0.1",
+        "§:amiunique.org",
+        "§:vodu.me",
+        "§:d36jcksde1wxzq.cloudfront.net",
+        "§:deviceinfo.me",
+        "§:yewtu.be",
+        "§:uncoder.io"
+      ],
+      "untrusted": [
+        "jnn-pa.googleapis.com",
+        "ytimg.com",
+        "https://rr3---sn-x5guiapo3uxax-cbflr.googlevideo.com",
+        "kavin.rocks",
+        "doubleclick.net",
+        "wp.com",
+        "primis.tech",
+        "jquery.com",
+        "siteimproveanalytics.com",
+        "digitalgov.gov",
+        "googletagservices.com",
+        "trafficjunky.net",
+        "trafficjunky.com",
+        "prvc.io",
+        "phncdn.com",
+        "https://static-ah.xhcdn.com",
+        "xhcdn.com",
+        "tsyndicate.com",
+        "cookieinfoscript.com",
+        "googlesyndication.com",
+        "jsdelivr.net",
+        "https://eu.i.posthog.com",
+        "https://sentry.io",
+        "https://intercom.io",
+        "yandex.com",
+        "yastatic.net",
+        "https://yastatic.net",
+        "intergient.com",
+        "google-analytics.com",
+        "fedoraproject.org",
+        "https://cdn.cookielaw.org",
+        "https://cookielaw.org",
+        "https://play.google.com",
+        "googletagmanager.com",
+        "https://otlp.bugsnag.com",
+        "https://libreddit.kavin.rocks",
+        "projectsegfau.lt",
+        "https://libreddit.nl",
+        "tux.pizza",
+        "bus-hit.me",
+        "https://static.hotjar.com",
+        "https://assets.customer.io",
+        "gstatic.com",
+        "https://www.gstatic.com",
+        "https://www.google.com"
+      ],
+      "custom": {
+        "§:dedoimedo.com": {
+          "capabilities": [
+            "fetch",
+            "noscript",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:youtube.com": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "noscript",
+            "other",
+            "script"
+          ],
+          "contextual": {
+            "§:youtube.com": {
+              "capabilities": [
+                "frame",
+                "fetch",
+                "noscript",
+                "other",
+                "script"
+              ],
+              "temp": false
+            }
+          },
+          "temp": false
+        },
+        "§:googlevideo.com": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "noscript",
+            "other"
+          ],
+          "contextual": {
+            "§:youtube.com": {
+              "capabilities": [
+                "frame",
+                "fetch",
+                "noscript",
+                "other"
+              ],
+              "temp": false
+            }
+          },
+          "temp": false
+        },
+        "§:ajax.googleapis.com": {
+          "capabilities": [
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "ping",
+            "noscript",
+            "unchecked_css",
+            "lan",
+            "other"
+          ],
+          "contextual": {
+            "§:typing.academy": {
+              "capabilities": [
+                "script"
+              ],
+              "temp": false
+            }
+          },
+          "temp": false
+        },
+        "§:state.gov": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "noscript",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:brave.com": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "noscript",
+            "other",
+            "script",
+            "font",
+            "object"
+          ],
+          "temp": false
+        },
+        "§:privacydev.net": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "noscript",
+            "other"
+          ],
+          "contextual": {
+            "§:privacydev.net": {
+              "capabilities": [
+                "frame",
+                "fetch",
+                "noscript",
+                "other",
+                "font"
+              ],
+              "temp": false
+            }
+          },
+          "temp": false
+        },
+        "§:1337x.to": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "other",
+            "script"
+          ],
+          "contextual": {
+            "§:1337x.to": {
+              "capabilities": [
+                "frame",
+                "fetch",
+                "other",
+                "font",
+                "script"
+              ],
+              "temp": false
+            }
+          },
+          "temp": false
+        },
+        "§:ur.gov.iq": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "other",
+            "font",
+            "script",
+            "noscript"
+          ],
+          "temp": false
+        },
+        "§:foss.family": {
+          "capabilities": [
+            "frame",
+            "fetch",
+            "other",
+            "font"
+          ],
+          "temp": false
+        }
+      }
+    },
+    "enforced": true,
+    "autoAllowTop": false
+  },
+  "local": {
+    "debug": false,
+    "showCtxMenuItem": true,
+    "showCountBadge": true,
+    "showFullAddresses": true,
+    "showProbePlaceholders": true,
+    "amnesticUpdates": true,
+    "storage": "local",
+    "uuid": "74be0df8-b119-48fa-8084-cbc7e2d14590",
+    "highContrast": false
+  },
+  "sync": {
+    "global": false,
+    "xss": true,
+    "TabGuardMode": "global",
+    "TabGuardPrompt": "post",
+    "cascadeRestrictions": true,
+    "overrideTorBrowserPolicy": false,
+    "storage": "sync"
+  },
+  "xssUserChoices": {}
+}
